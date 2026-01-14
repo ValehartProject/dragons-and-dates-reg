@@ -78,7 +78,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
             />
             <motion.img 
-              src="/images/fortress-crest.webp" 
+              src="/images/fortress-heart-crest.png" 
               alt="Fortress Sydney" 
               className="w-8 h-8 md:w-12 md:h-12 object-contain"
               animate={{ scale: [1, 1.1, 1] }}
@@ -99,8 +99,11 @@ export default function Home() {
             Dragons & Dates
           </h1>
           
-          <p className="font-heading text-lg md:text-xl text-[oklch(0.45_0.08_20)] mb-6 tracking-widest uppercase">
+          <p className="font-heading text-lg md:text-xl text-[oklch(0.45_0.08_20)] mb-2 tracking-widest uppercase">
             A Valentine's Day Theatrical Workshop | Fortress Sydney
+          </p>
+          <p className="font-body text-sm md:text-base text-[oklch(0.45_0.08_20)] mb-6 tracking-wide">
+            by Arcanium Studios
           </p>
           
           <p className="font-body text-base md:text-lg text-[oklch(0.35_0.08_20)] italic max-w-2xl mx-auto mb-8">
