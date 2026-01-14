@@ -77,7 +77,13 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             />
-            <Heart className="w-8 h-8 md:w-12 md:h-12 text-[oklch(0.55_0.22_25)] animate-pulse" />
+            <motion.img 
+              src="/images/fortress-crest.webp" 
+              alt="Fortress Sydney" 
+              className="w-8 h-8 md:w-12 md:h-12 object-contain"
+              animate={{ scale: [1, 1.1, 1] }}
+              transition={{ duration: 2, repeat: Infinity }}
+            />
             <motion.img 
               src="/images/ice-dragon-crest.png" 
               alt="House of Ice" 
@@ -94,7 +100,7 @@ export default function Home() {
           </h1>
           
           <p className="font-heading text-lg md:text-xl text-[oklch(0.45_0.08_20)] mb-6 tracking-widest uppercase">
-            A Valentine's Day Theatrical Workshop
+            A Valentine's Day Theatrical Workshop | Fortress Sydney
           </p>
           
           <p className="font-body text-base md:text-lg text-[oklch(0.35_0.08_20)] italic max-w-2xl mx-auto mb-8">
