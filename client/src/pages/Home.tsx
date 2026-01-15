@@ -78,7 +78,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
             />
             <motion.img 
-              src="/images/fortress-heart-crest.png" 
+              src="/images/fortress-heart-logo.png" 
               alt="Fortress Sydney" 
               className="w-8 h-8 md:w-12 md:h-12 object-contain"
               animate={{ scale: [1, 1.1, 1] }}
@@ -100,10 +100,10 @@ export default function Home() {
           </h1>
           
           <p className="font-heading text-lg md:text-xl text-[oklch(0.45_0.08_20)] mb-2 tracking-widest uppercase">
-            A Valentine's Day Theatrical Workshop | Fortress Sydney
+            Fortress, Sydney
           </p>
           <p className="font-body text-sm md:text-base text-[oklch(0.45_0.08_20)] mb-6 tracking-wide">
-            by Arcanium Studios
+            Presented by Arcanium Studios
           </p>
           
           <p className="font-body text-base md:text-lg text-[oklch(0.35_0.08_20)] italic max-w-2xl mx-auto mb-8">
@@ -228,31 +228,31 @@ export default function Home() {
               {
                 act: "I",
                 title: '"Do you bite your thumb at us, sir?"',
-                description: "Master the art of the brush—learn proper grip and pressure without biting your thumb!",
+                description: "Introduction to tools and fundamentals. How to hold the brush, managing brush pressure.",
                 icon: "🎭"
               },
               {
                 act: "II",
-                title: '"Two households, both alike in dignity"',
-                description: "Choose your side: House of Fire (Red) or House of Ice (White). Base coating and color theory.",
+                title: '"O Romeo, Romeo! Wherefore art thou Romeo?"',
+                description: "Learn about base colour and colour theory as well as the application purposes.",
                 icon: "⚔️"
               },
               {
                 act: "III",
-                title: '"Parting is such sweet sorrow"',
-                description: "Learn the secrets of blending and elemental transitions on your dragon's scales.",
+                title: '"More light and light, more dark and dark our woes!"',
+                description: "Learn the secrets of blending and elemental transitions.",
                 icon: "🎨"
               },
               {
                 act: "IV",
-                title: '"O, she doth teach the torches to burn bright!"',
-                description: "Add the highlights that make your dragon truly legendary—eyes, scales, and hoard gold.",
+                title: '"This is the place, there where the torch doth burn."',
+                description: "Add the highlights that make your dragon truly legendary.",
                 icon: "✨"
               },
               {
                 act: "V",
-                title: '"For never was a story of more woe..."',
-                description: "Seal your work with varnish and present your pair to the court. Rewrite the ending!",
+                title: '"For never was a story of more woe than this of Juliet and her Romeo"',
+                description: "Final touches to bring our session to an end.",
                 icon: "💕"
               },
             ].map((act, index) => (
